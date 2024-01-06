@@ -1,0 +1,14 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.(?:ts|tsx|js)*",
+        "isAsync": true,
+        "cmd": "npm run generate:index"
+      }
+    ]
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
+}
